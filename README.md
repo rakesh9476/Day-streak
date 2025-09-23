@@ -24,6 +24,13 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
       3. if length of set  less than the length of list
       4. then it contains the duplicate else it does not contain duplicates
     - Time Complexity: O(N),Space Complexity: O(N)
+ 3. **Median of a array(greeks for greeks)**
+    -Apprroach
+    1. If the list length is odd, the median is the middle element.
+
+    2. If the list length is even, the median is the average of the two middle elements.
+    - Time Complexity: O(n log n) ,space complexity: O(n)
+    - asked in Accolite, Amazon, Samsung , FactSet
 
 ###  Python / Tools Learned
 - Python 3.13.7 installed  
