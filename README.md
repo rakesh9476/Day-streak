@@ -25,6 +25,7 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
       4. then it contains the duplicate else it does not contain duplicates
     - Time Complexity: O(N),Space Complexity: O(N)
  3. **Median of a array(greeks for greeks)**
+    
     -Apprroach
     1. If the list length is odd, the median is the middle element.
 
