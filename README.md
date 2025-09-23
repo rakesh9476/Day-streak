@@ -19,7 +19,7 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
 
  2. **Contains duplicate elements(#217,Easy)**
       - Apprroach:
-      1. connect the given  list into set
+      1. convert the given  list into set
       2. compare the length of set and length of list
       3. if length of set  less than the length of list
       4. then it contains the duplicate else it does not contain duplicates
