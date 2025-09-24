@@ -24,7 +24,7 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
       3. if length of set  less than the length of list
       4. then it contains the duplicate else it does not contain duplicates
     - Time Complexity: O(N),Space Complexity: O(N)
- 3. **Median of a array(greeks for greeks)**
+ 3. **Median of a array(geeks for geeks)**
     
     -Apprroach
     1. If the list length is odd, the median is the middle element.
@@ -32,7 +32,7 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
     3. Time Complexity: O(n log n) ,space complexity: O(n)
     4.  asked in Accolite, Amazon, Samsung , FactSet
   ##  Day 2
-1. **Second largest element (greeks for greeks)**
+1. **Second largest element (geeks for geeks)**
     -Apprroach
     1.  The goal is to find the second biggest number in a list of numbers.
     2. First, we look for the biggest number.
@@ -40,6 +40,16 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
     4. If we don’t find a second biggest (like if all numbers are the same), we return -1.
     5. Time complexity is O(n) and space complexity is O(1)
     6. asked in SAP LabsRockstand
+2.  **Missing element in an array(geeks for geeks)**
+   -Apprroach
+    1.  Calculate the expected total count: n = len(arr) + 1.
+    2.  Convert the list to a set for fast lookup: s = set(arr).
+    3.  Iterate from 1 to n:
+    4. Check if each number is not in the set.
+    5. Return the first number that’s missing
+    6. Time and space complexity is O(n)
+    7. Asked in Flipkart, Morgan,Stanley ,Accolite ,Amazon ,Microsoft, D-E-Shaw ,OlaCabs ,Payu ,Visa , Intuit, Adobe, Cisco , Qualcomm ,TCS
+ 
 
 
 ###  Python / Tools Learned
