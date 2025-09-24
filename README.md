@@ -28,10 +28,19 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
     
     -Apprroach
     1. If the list length is odd, the median is the middle element.
-
     2. If the list length is even, the median is the average of the two middle elements.
-    - Time Complexity: O(n log n) ,space complexity: O(n)
-    - asked in Accolite, Amazon, Samsung , FactSet
+    3. Time Complexity: O(n log n) ,space complexity: O(n)
+    4.  asked in Accolite, Amazon, Samsung , FactSet
+  ##  Day 2
+1. **Second largest element (greeks for greeks)**
+    -Apprroach
+    1.  The goal is to find the second biggest number in a list of numbers.
+    2. First, we look for the biggest number.
+    3. Then, we look again for the biggest number that’s not the first one.
+    4. If we don’t find a second biggest (like if all numbers are the same), we return -1.
+    5. Time complexity is O(n) and space complexity is O(1)
+    6. asked in SAP LabsRockstand
+
 
 ###  Python / Tools Learned
 - Python 3.13.7 installed  
