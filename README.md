@@ -50,7 +50,25 @@ Goal: Build problem-solving skills, Python proficiency, and maintain a professio
     6. Time and space complexity is O(n)
     7. Asked in Flipkart, Morgan,Stanley ,Accolite ,Amazon ,Microsoft, D-E-Shaw ,OlaCabs ,Payu ,Visa , Intuit, Adobe, Cisco , Qualcomm ,TCS
  
+   **DAY 3
+   1. **Face the sun**
+    -Approach
+  1. Start with zero count and no tallest building yet You begin by assuming no building has seen sunlight and no height is      the tallest.
+  2. Scan buildings from left to right Go through each building one by one, just like sunlight would hit them.
+  3.  Compare each building’s height to the tallest so far If a building is taller than all the ones before it, it gets           sunlight and you increase the count.
+  4. Update the tallest height when needed Every time a taller building is found, you remember its height for future
+     comparisons
 
+2. **Majority element**
+   -Approach
+  1. You look at each number in the list, but only check each unique number once.
+  2. For every number, you count how many times it appears.
+  3. If a number appears more than half the total number of items, it’s the majority.
+  4. As soon as you find that number, you return it.
+ 
+
+
+    
 
 ###  Python / Tools Learned
 - Python 3.13.7 installed  
